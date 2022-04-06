@@ -9,6 +9,12 @@ import java.util.HashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Класс считает данные из запроса и отправляет их обратно.
+ *
+ * @author yustas
+ * @version 1.0
+ */
 public class PoohServer {
     private final HashMap<String, Service> modes = new HashMap<>();
 
